@@ -19,7 +19,7 @@ function colorOnClick(val) {
 function makeGrid(height, width) {
   gridBody.innerHTML = '';
   for (let s = 0; s < height; s++) {
-    var nRow = document.createElement('tr');
+    let nRow = document.createElement('tr');
     for (let t = 0; t < width; t++) {
       let nCell = document.createElement('td');
       nRow.appendChild(nCell);
